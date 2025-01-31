@@ -15,7 +15,7 @@ app.use(cors({
 app.get('/', (req, res) => {
     const email = 'jonahodoh@gmail.com';
     const current_datetime = new Date().toISOString(); 
-    const github_url = 'https://github.com//hng12-api'; 
+    const github_url = 'https://github.com/omonuj/hngTask'; 
 
     const response = {
         email,
